@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logonegro.png">
+    <link rel="stylesheet" href="fuentes.css">
+    <link rel="stylesheet" href="animacionnav.css">
+    <link rel="stylesheet" href="inicioyregistro.css">
+    <link rel="stylesheet" href="footernegro.css">
+</head>
+<body>
+    <!--contenido principal-->
+    <main>
+        <img src="img/logonegro.png" alt="logo">
+        <h1>REGÍSTRATE</h1>
+        <form>
+            <label for="nombre">Nombre y Apellidos: </label><input id="nombre" type="text" placeholder="Introduce tu nombre y apellidos" required><br><br>
+            <label for="correo">Correo: </label><input id="correo" type="text" placeholder="ejemplo@email.com" required><br><br>
+            <label for="contrasena">Contraseña: </label><input id="contrasena" type="password" placeholder="***********" required><br><br>
+            <label for="rcontrasena">Repite tu contraseña: </label><input id="rcontrasena" type="password" placeholder="***********" required><br><br>
+            <button onclick="location.href='inicio.html'">Registrarse</button><br><br><!--en el futuro será un input type=submit para el correcto funcionamiento del formulario-->
+            <p>¿Ya tienes cuenta?<a href="iniciosesion.html"> Inicia sesión</a></p>
+            
+        </form>
+    </main>
+    <!--pie de página-->
+    <footer>
+        <section class="iconos">
+            <a href="https://www.tiktok.com/@gmzbarbershop" id="tiktok"><img src="img/tiktokb.png" alt="tiktok"></a>
+            <a href="https://www.instagram.com/gmzbarbershop/" id="insta"><img src="img/instagramb.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/@GMZBarberShop" id="yt"><img src="img/youtubeb.png" alt="youtube"></a>
+            <img src="img/logo.png" alt="logo" id="logofooter">
+        </section>
+        <section class="listas">
+            <article>
+                <p>Sobre nosotros</p>
+                <ul>
+                    <li><a href="https://blog.hubspot.es/marketing/ejemplos-objetivos-marketing">Objetivos</a></li>
+                    <li><a href="https://es.wikipedia.org/wiki/Marca">Orígenes</a></li>
+                    <li><a href="https://www.barberius.com/es/fabricantes">Productos</a></li>
+                </ul>
+            </article>
+            <article>
+                <p>Políticas</p>
+                <ul>
+                    <li><a href="https://es.wikipedia.org/wiki/Aviso_legal">Aviso legal</a></li>
+                    <li><a href="https://policies.google.com/privacy?hl=es">Política de privacidad</a></li>
+                    <li><a href="https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/consumidores/compraventa/devolucion.html">Devoluciones</a></li>
+                </ul>
+            </article>
+            <article>
+                <p>Contacto</p>
+                <ul>
+                    <li><a href="mailto:gmzbarbershop@gmail.com">E-mail</a></li>
+                    <li>Teléfono: 640 10 77 95</li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

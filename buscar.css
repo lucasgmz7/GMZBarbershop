@@ -1,0 +1,121 @@
+/*GENERAL*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+/*HEADER*/
+header {
+    background-color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.clippers, .trimmers, .shavers, .accesorios {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+}
+
+nav .clippers {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+}
+nav .trimmers {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    margin-left: 110px;
+}
+nav .shavers {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    margin-left: 240px;
+    
+}
+nav .accesorios {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    margin-left: 350px;
+    
+}
+
+nav .logo {
+    grid-column: 2;
+    justify-self: center;
+}
+
+#logoimg {
+    height: 120px !important;
+    width: 110px !important;
+}
+
+nav a.user {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    margin-right: 140px;
+}
+nav a.buscar {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    margin-right:70px;
+    transform: scale(1.2);
+}
+nav a.cesta {
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: end;
+}
+
+/*MAIN*/
+main{
+    min-width: 100%;
+    min-height: 90vh;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+form{
+    display: flex;
+    margin-left: 30px;
+}
+input{
+    width: 500px;
+    height: 50px;
+}
+main a img{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}

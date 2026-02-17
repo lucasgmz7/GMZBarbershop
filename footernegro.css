@@ -1,0 +1,71 @@
+footer{
+    background-color: black;
+    font-family: Open Sans;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+}
+article p{
+    font-weight: bold;
+}
+.iconos{
+    display: grid;
+    grid-template-areas:
+    "tik insta yt"
+    "logof logof logof";
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+#tiktok{
+    grid-area: tik;
+    height: 50px;
+    width: 50px;
+}
+#insta{
+    grid-area: insta;
+}
+#yt{
+    grid-area: yt;
+    margin-left: 5px;
+}
+#logofooter{
+    grid-area: logof;
+    height: 150px;
+    width: 100px;
+    margin-left: 20px;
+    justify-self: center;
+}
+section a img{
+    height: 45px;
+    width: 45px;
+}
+footer article{
+    margin-right: 50px;
+    color: white;
+}
+.listas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    margin-bottom: 20px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
